@@ -37,14 +37,22 @@ button {
 
 .logo {
     font-size: 24px;
+    font-weight: 900;
+}
+
+.header-links,
+#awesome-subtext {
+    color: #E5E7EB;
 }
 
 .header-links {
+    font-size: 12px;
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
     gap: 16px;
+
 }
 
 #header-box {
@@ -67,6 +75,10 @@ button {
     font-weight: bolder;
 }
 
+#awesome-subtext {
+    font-size: 18px;
+}
+
 #header-img {
     background-color: #6d747e;
     flex: 0 0 auto;
@@ -78,6 +90,7 @@ button {
 
 .content {
     background-color: white;
+    padding-bottom: 64px;
 }
 
 #content-title {
@@ -111,4 +124,30 @@ button {
     width: 144px;
     color: #6d747e;
     text-align: center;
+}
+
+.quote {
+    padding: 64px 96px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+#quote-body {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#quoter {
+    font-size: 24px;
+    font-weight: 900;
+    align-self: self-end;
+}
+
+.call-to-action {
+    background-color: #3882F6;
 }
